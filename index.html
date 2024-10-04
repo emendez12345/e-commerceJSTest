@@ -1,15 +1,22 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Productos</title>
+    <style>
+        .hidden { display: none; }
+    </style>
 </head>
 <body>
-    <h1>Lista de Productos</h1>
-    <ul id="lista-productos"></ul>
+    <div id="producto">
+        <h1>Nombre del Producto</h1>
+        <div id="tallas"></div>
+        <div id="colores" class="hidden"></div>
+        <div id="fotos" class="hidden"></div>
+    </div>
 
-    <!-- Incluye tu archivo JavaScript -->
     <script src="script.js"></script>
 </body>
 </html>
